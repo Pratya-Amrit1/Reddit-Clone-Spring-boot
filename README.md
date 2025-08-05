@@ -22,17 +22,6 @@ A full-stack Reddit clone built with Spring Boot backend and modern JavaScript f
   - Swagger UI integration
   - RESTful API endpoints
 
-### Frontend (Vanilla JavaScript)
-- **Modern UI**
-  - Reddit-inspired design with orange theme
-  - Responsive layout (mobile-friendly)
-  - Clean navigation and user experience
-
-- **Pages**
-  - Homepage with posts feed
-  - User registration and login
-  - Subreddits listing and creation
-  - Post viewing and interaction
 
 ## 🛠️ Tech Stack
 
@@ -46,11 +35,7 @@ A full-stack Reddit clone built with Spring Boot backend and modern JavaScript f
 - **Mapping**: MapStruct 1.5.5.Final
 - **Build Tool**: Maven
 
-### Frontend
-- **HTML5** - Structure
-- **CSS3** - Modern styling with CSS variables
-- **JavaScript (ES6+)** - API integration and DOM manipulation
-- **No frameworks** - Pure vanilla JavaScript
+
 
 ### Additional Libraries
 - **Lombok** - Reduces boilerplate code
@@ -112,7 +97,6 @@ export JAVA_HOME=/path/to/jdk-20
 
 ### 5. Access the Application
 
-- **Frontend**: http://localhost:8086/
 - **Swagger UI**: http://localhost:8086/swagger-ui.html
 - **API Base URL**: http://localhost:8086/api/
 
@@ -133,13 +117,6 @@ Reddit-Clone-Spring-boot/
 │   │   │   ├── security/        # JWT Provider, Filters
 │   │   │   └── service/         # Business Logic
 │   │   └── resources/
-│   │       ├── static/          # Frontend files (HTML, CSS, JS)
-│   │       │   ├── css/
-│   │       │   ├── js/
-│   │       │   ├── index.html
-│   │       │   ├── login.html
-│   │       │   ├── register.html
-│   │       │   └── subreddits.html
 │   │       ├── templates/       # Email templates
 │   │       └── application.properties
 │   └── test/                    # Unit tests
@@ -176,13 +153,6 @@ Reddit-Clone-Spring-boot/
 ### Votes
 - `POST /api/votes/` - Vote on post (Auth required)
 
-## 🎨 Frontend Usage
-
-1. **Browse Posts**: Visit homepage to see all posts
-2. **Register**: Click "Sign Up" to create an account
-3. **Login**: Use your credentials to log in
-4. **Create Communities**: Visit Subreddits page and create new communities
-5. **Interact**: Upvote, downvote, and comment on posts (when logged in)
 
 ## 🔧 Development Notes
 
